@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "FoodCost — คำนวณต้นทุนเมนูอาหาร",
-  description: "คำนวณต้นทุนวัตถุดิบ ต้นทุนต่อจาน และ Food Cost",
+  description: "คำนวณ Food Cost สูตรย่อย สต็อก Supplier และ Purchase Order",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
